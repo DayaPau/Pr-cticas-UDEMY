@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+/*Almacena la información de un motor de combustion interna 
+y porsteriormente muestre la cilindrada de dicho motor en centiimetros cubicos*/
 
 int main()
 {

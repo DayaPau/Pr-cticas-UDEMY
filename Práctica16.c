@@ -3,7 +3,7 @@
 #include <string.h>
 
 /* Crear un programa que pida al usuario los nombres, edades, y alturas de los jugadores de un equipo de baloncesto
-(5 jugadores). Posteriormente le presentar� un men� que le permita:
+(5 jugadores). Posteriormente le presentar un menú que le permita:
 1. Listar los nombres y alturas de los jugadores;
 2. Buscar un jugador por su nombre y presentar su altura y su edad;
 3. Indicar el nombre y la edad del jugador más alto del equipo.*/
@@ -48,7 +48,7 @@ int main()
             int encontrado = 0;
 
             for (int i=0; i<5; i++){
-                if (strcmp(jugadores[i].nombre,nombre_jugador) == 0){
+                if (strcmp(jugadores[i].nombre,nombre_jugador) == 0){  //Aqui se compara y si es igual a cero es que si hay
                     encontrado = 1;
                     printf("La edad del jugador es %d y su altura %.2f\n",jugadores[i].edad, jugadores[i].altura);
                 }
@@ -61,7 +61,7 @@ int main()
             float mayor_altura = jugadores[0].altura;
             char nombre_mayor_altura[50];
             int edad_mayor_altura = jugadores[0].edad;
-            strcpy(nombre_mayor_altura,jugadores[0].nombre);
+            strcpy(nombre_mayor_altura,jugadores[0].nombre); //para comparar
             for (int i=1; i<5; i++){
                 if (jugadores[i].altura > mayor_altura){
                     strcpy(nombre_mayor_altura,jugadores[i].nombre);

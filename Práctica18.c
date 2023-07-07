@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Escribir una funcion que reciba como parametros un
+vector de enteros y la longitud del vector y un numero
+La funcion debe multiplicar cada elemento del vector
+por el numero*/
+
 void multiplica_vector(int *vector, int nElem, int numero);
 
 int main()

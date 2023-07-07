@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Se desea realizar un programa quee controlar la entrada
+de los asistentes a un museo. Se solicita la información de la
+hora de acceso, el numero de personas que forman el grupo y 
+las edades */
+
 int main()
 {
     struct hora_entrada{
@@ -60,7 +65,7 @@ int main()
         printf("Minuto de entrada del grupo %d\n",e1.hora1.minuto);
         printf("Precio de las entradas del grupo %f\n",e1.precio);
 
-        printf("�Quiere continuar con otro grupo?(S/N)\n");
+        printf("¿Quiere continuar con otro grupo?(S/N)\n");
         scanf("%c",&continuar);
         while (continuar == '\n'){
            scanf("%c",&continuar);

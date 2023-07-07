@@ -11,7 +11,7 @@ int main()
 {
     struct producto *prod;
 
-    prod = malloc(sizeof(struct producto));
+    prod = malloc(sizeof(struct producto));  //reservar espacio de memoria
 
     printf("Introduce el codigo\n");
     scanf("%d",&prod->codigo);

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /*En un hotel la información de las habitaciones se guarda en un array en el que cada posición es a su vez otro array
-con la información de una habitación concreta. La primera posición de cada array es el n�mero de habitaci�n
-y las tres siguientes posiciones es el precio de la habitaci�n en temporada baja, media y alta.
+con la información de una habitación concreta. La primera posición de cada array es el número de habitación
+y las tres siguientes posiciones es el precio de la habitación en temporada baja, media y alta.
 
 Ejemplo: [[1,120,150,220],[2,130,160,230],[3,100,120,200]]
 
